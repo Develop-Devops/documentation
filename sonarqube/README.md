@@ -178,3 +178,10 @@ ulimit -u 4096
 ```
 sysctl -p
 ```
+
+# Initial creedentials
+
+```
+admin:admin
+```
+![qownnotes-media-NtSxLZ](../media/qownnotes-media-NtSxLZ.png)
