@@ -54,7 +54,9 @@ sudo useradd -d /opt/sonarqube -g sonar sonar
 
 ## Grant the sonar user access to the /opt/sonarqube directory.
 
+```
 sudo chown sonar:sonar /opt/sonarqube -R
+```
 
 vi /opt/sonarqube/conf/sonar.properties
 
