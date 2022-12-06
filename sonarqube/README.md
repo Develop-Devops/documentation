@@ -27,6 +27,8 @@ GRANT ALL PRIVILEGES ON DATABASE sonarqube to sonar;
 exit
 ```
 
+# download sonarqube
+```
 sudo apt-get install zip -y
 
 cd /tmp
@@ -36,14 +38,19 @@ wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.5.0.567
 unzip sonarqube-9.5.0.56709.zip
 
 mv sonarqube-9.5.0.56709 /opt/sonarqube
+```
 
 ## Create a sonar group.
 
+```
 sudo groupadd sonar
+```
 
 ## Create a sonar user and set /opt/sonarqube as the home directory.
 
+```
 sudo useradd -d /opt/sonarqube -g sonar sonar
+```
 
 ## Grant the sonar user access to the /opt/sonarqube directory.
 
