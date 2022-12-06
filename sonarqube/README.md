@@ -185,3 +185,7 @@ sysctl -p
 admin:admin
 ```
 ![qownnotes-media-NtSxLZ](../media/qownnotes-media-NtSxLZ.png)
+
+change password and voila
+
+![qownnotes-media-CUqlRN](../media/qownnotes-media-CUqlRN.png)
