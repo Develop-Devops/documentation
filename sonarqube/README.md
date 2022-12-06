@@ -1,3 +1,19 @@
+- [Install jdk](#install-jdk)
+- [Install postgres](#install-postgres)
+  - [Configure postgres](#configure-postgres)
+- [download sonarqube](#download-sonarqube)
+  - [Create a sonar group.](#create-a-sonar-group)
+  - [Create a sonar user and set /opt/sonarqube as the home directory.](#create-a-sonar-user-and-set-optsonarqube-as-the-home-directory)
+  - [Grant the sonar user access to the /opt/sonarqube directory.](#grant-the-sonar-user-access-to-the-optsonarqube-directory)
+- [Create service](#create-service)
+- [Install nginx](#install-nginx)
+  - [virtual host](#virtual-host)
+- [install certbot](#install-certbot)
+  - [create certificate](#create-certificate)
+- [Modify Kernel System Limits](#modify-kernel-system-limits)
+- [add ulimit](#add-ulimit)
+- [Initial creedentials](#initial-creedentials)
+
 # Install jdk
 ```
 apt-get install openjdk-11-jdk -y
