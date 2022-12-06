@@ -1,2 +1,5 @@
-# [postfix](postfix%2FREADME.md)
-# gitlabci
+- [postfix](#postfix)
+- [gitlabci](#gitlabci)
+
+# [postfix](postfix-README%2FREADME.md)
+# [gitlabci](gitlabci-README%2FREADME.md)
