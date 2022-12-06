@@ -1,0 +1,34 @@
+stages:
+  - deploy
+  - notify
+
+deployed:
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "dev"'
+      variables:
+        enviroment: 'DEV'
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      variables:
+        enviroment: 'PROD'
+  stage: deploy
+  image: 
+    name: ruby:2.5
+  script:
+    - echo $CI_COMMIT_BRANCH
+  environment:
+    name: $enviroment
+
+success:
+  image: 
+    name: ruby:2.5
+  stage: notify
+  script:
+    - echo "curl -i -X GET \"https://api.telegram.org/bot"$BOT_TOKEN"/sendMessage?chat_id="$TELEGRAM_ID"&text=✅✅✅The '"$CI_PROJECT_URL"/-/tree/"$CI_COMMIT_BRANCH"' job execution was successful, for details go to '"$CI_PROJECT_URL"/-/pipelines/"$CI_PIPELINE_ID"' \"" | sh
+
+failure:
+  image: 
+    name: ruby:2.5
+  stage: notify
+  when: on_failure
+  script:
+    - echo "curl -i -X GET \"https://api.telegram.org/bot"$BOT_TOKEN"/sendMessage?chat_id="$TELEGRAM_ID"&text=🚨🚨🚨The '"$CI_PROJECT_URL"/-/tree/"$CI_COMMIT_BRANCH"' job execution has failed, for details go to '"$CI_PROJECT_URL"/-/pipelines/"$CI_PIPELINE_ID"' \"" | sh
