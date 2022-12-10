@@ -55,4 +55,4 @@ resource "aws_launch_template" "ecs_launch_template" {
 ```
 
 # user_data
-La configuración ac
+La configuración actual es para que el autoscalling group se una a un cluster de ecs en aws. Dejo algunos detalles por s
