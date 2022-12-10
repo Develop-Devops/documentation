@@ -55,4 +55,6 @@ resource "aws_launch_template" "ecs_launch_template" {
 ```
 
 # user_data
-La configuración actual es para que el autoscalling group se una a un cluster de ecs en aws. Dejo algunos detalles por s
+La configuración actual es para que el autoscalling group se una a un cluster de ecs en aws. Dejo algunos detalles por si les es útil en sus despliegues
+
+user_data se usa para ejecutar un com
