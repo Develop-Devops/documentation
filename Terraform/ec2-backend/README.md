@@ -53,3 +53,6 @@ resource "aws_launch_template" "ecs_launch_template" {
     user_data = base64encode(data.template_file.ecs_instance.rendered)
 }
 ```
+
+# user_data
+La configuración ac
