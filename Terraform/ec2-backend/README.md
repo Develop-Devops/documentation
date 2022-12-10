@@ -59,3 +59,16 @@ La configuración actual es para que el autoscalling group se una a un cluster d
 
 user_data se usa para ejecutar un commando o script al inicio del servidor, en este caso usamos un comando q con la tipo de maquina virtual se conectará al cluster de ecs:
 
+este es el contenido de
+```
+#!/bin/bash
+
+# ECS config
+{
+  echo "ECS_CLUSTER=${ecs_cluster}"
+} >> /etc/ecs/ecs.config
+
+start ecs
+
+echo "Done"
+```
