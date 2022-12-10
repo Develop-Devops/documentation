@@ -73,4 +73,4 @@ start ecs
 echo "Done"
 ```
 
-En mi caso estaré usando ambas configuraciones hasta
+En mi caso estaré usando ambas configuraciones hasta después de un tiempo dejar  descontinuado ecs_launch_configuration
