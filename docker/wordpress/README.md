@@ -1,4 +1,4 @@
-wordpress
+wordpress/ubuntu/docker
 =========
 
 Todos sabemos la utilidad de docker para el despligue de aplicaciones:
@@ -105,5 +105,5 @@ define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
 ```
 
-# 
+# .co
 
