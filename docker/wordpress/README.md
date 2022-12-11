@@ -109,6 +109,7 @@ define( 'DB_COLLATE', '' );
 
 <details><summary><b> .conf nginx</b></summary>
 Aca configuramos un .conf de nginx para responder por el puerto 80, puerto que mapeamos en el docker-compose, es una configuración básica, la configuraciones avanzadas las dejaremos para el nginx que sirva de proxy inverso
+
 ```
 server {
   server_name _;
