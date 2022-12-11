@@ -48,5 +48,7 @@ volumes:
   db_data:
   wp_data:
 ```
-Aca tenemos un despliegue con la imagen de mariadb y un wordpress que desplegaremos en una i
+Aca tenemos un despliegue con la imagen de mariadb y un wordpress que desplegaremos en una imagen propia basada en ubuntu:20.04.
+
+# Dockerfile
 
