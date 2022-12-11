@@ -84,5 +84,26 @@ CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
 En este punto partiendo de la imagen base descargamos la paquetería necesaria, descargamos a ultima version de wordpress, copiamos un wp-config.php configurado para pasarle la conexión a base de datos por variables de entorno:
 
 # wp-config
-En este caso no abordaremos todo el contenido del config, es el wp-config.php que tiene por defecto wordpress con variables de entorno para adoptar las que ponemos en el 
+En este caso no abordaremos todo el contenido del config, es el wp-config.php que tiene por defecto wordpress con variables de entorno para adoptar las que ponemos en el docker-compose.yml
+
+```
+define( 'DB_NAME', $_SERVER["WORDPRESS_DB_NAME"] );
+
+/** Database username */
+define( 'DB_USER', $_SERVER["WORDPRESS_DB_USER"] );
+
+/** Database password */
+define( 'DB_PASSWORD', $_SERVER["WORDPRESS_DB_PASSWORD"] );
+
+/** Database hostname */
+define( 'DB_HOST', $_SERVER["WORDPRESS_DB_HOST"] );
+
+/** Database charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8' );
+
+/** The database collate type. Don't change this if in doubt. */
+define( 'DB_COLLATE', '' );
+```
+
+# 
 
