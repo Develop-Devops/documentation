@@ -1,3 +1,2 @@
 - [Contenido]
-  - [wordpress-ubuntu](wordpress-ubuntu%2FREADME.md)
-test
+  - [wordpress-ubuntu](wordpress%2FREADME.md)
