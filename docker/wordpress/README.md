@@ -222,4 +222,4 @@ environment=WORDPRESS_DB_HOST=%(ENV_WORDPRESS_DB_HOST)s,WORDPRESS_DB_USER=%(ENV_
 
 # www.conf
 
-Y por último y no menos importante el .conf de php-fpm. Por qué modifico este .conf?; sencillo, estamos trabajando con diferentes niveles de abstracción Docker
+Y por último y no menos importante el .conf de php-fpm. Por qué modifico este .conf?; sencillo, estamos trabajando con diferentes niveles de abstracción Docker(que tiene sus variables de entorno), supervisor(que le inyecta variables de entr)
