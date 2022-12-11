@@ -193,7 +193,7 @@ server {
 
 
 # supervisor.conf
-Normalmente los contenedores tienen un único software a levantar, en este caso estaremos levan
+Normalmente los contenedores tienen un único software a levantar, en este caso estaremos levantando 2 demonios, php-fpm y nginx, para no complicarnos en temas de script y demas utilizaremos 
 
 ```
 [supervisord]
