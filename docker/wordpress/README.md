@@ -1,15 +1,6 @@
 wordpress/ubuntu/docker
 =========
 
-- [wordpress/ubuntu/docker](#wordpressubuntudocker)
-- [docker-compose](#docker-compose)
-- [Dockerfile](#dockerfile)
-- [wp-config](#wp-config)
-- [nginx](#nginx)
-- [supervisor.conf](#supervisorconf)
-- [```www.conf```](#wwwconf)
-- [despligue](#despligue)
-
 
 Todos sabemos la utilidad de docker para el despligue de aplicaciones:
 
@@ -21,6 +12,15 @@ Todos sabemos la utilidad de docker para el despligue de aplicaciones:
 - [ ] Despliegue y escalabilidad rápidos
 - [ ] Pruebas continuas
 - [ ] Aislamiento
+
+- [wordpress/ubuntu/docker](#wordpressubuntudocker)
+- [docker-compose](#docker-compose)
+- [Dockerfile](#dockerfile)
+- [wp-config](#wp-config)
+- [nginx](#nginx)
+- [supervisor.conf](#supervisorconf)
+- [```www.conf```](#wwwconf)
+- [despligue](#despligue)
 
 A continuación les muestro una manera sencilla de crear y personalizar nuestra propia imagen de wordpress:
 
