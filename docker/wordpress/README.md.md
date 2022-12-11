@@ -51,7 +51,7 @@ volumes:
 Aca tenemos un despliegue con la imagen de mariadb y un wordpress que desplegaremos en una imagen propia basada en ubuntu:20.04.
 
 # Dockerfile
-```
+```Dockerfile
 FROM ubuntu:20.04
 
 ### Install paquetes php 
@@ -81,5 +81,5 @@ EXPOSE 80
 
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
 ```
-
+En este punto partiendo de l
 
