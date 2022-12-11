@@ -3,6 +3,8 @@ wordpress/ubuntu/docker
 
 Todos sabemos la utilidad de docker para el despligue de aplicaciones:
 
+- [ ] ahorro de costes
+- [ ] 
 
 
 A continuación les muestro una manera sencilla de crear y personalizar nuestra propia imagen de wordpress:
