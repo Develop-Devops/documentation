@@ -224,3 +224,11 @@ environment=WORDPRESS_DB_HOST=%(ENV_WORDPRESS_DB_HOST)s,WORDPRESS_DB_USER=%(ENV_
 
 Y por último y no menos importante el .conf de php-fpm. Por qué modifico este .conf?; sencillo, estamos trabajando con diferentes niveles de abstracción Docker(que tiene sus variables de entorno), supervisor(que le inyecta variables de entorno a los demonios), php-fpm(también tienes sus variables). En resumen he pasado las mismas variables de un demonio a otro. Aca solo pondré el fragmento que he modificado.
 
+```
+[www]
+
+env[WORDPRESS_DB_HOST] = $WORDPRESS_DB_HOST;
+env[WORDPRESS_DB_USER] = $WORDPRESS_DB_USER;
+env[WORDPRESS_DB_PASSWORD] = $WORDPRESS_DB_PASSWORD;
+env[WORDPRESS_DB_NAME] = $WORDPRESS_DB_NAME;
+```
