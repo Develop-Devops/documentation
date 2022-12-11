@@ -1,7 +1,0 @@
-<?php
-echo '<pre>';
-
-print_r($_SERVER['PHP_FOO']);
-//print_r($_ENV['PHP_FOO']);
-echo getenv('PHP_FOO');
-?>
