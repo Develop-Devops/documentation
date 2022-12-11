@@ -81,5 +81,8 @@ EXPOSE 80
 
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
 ```
-En este punto partiendo de la imagen base descargamos la paquetería necesaria, descargamos a ultima version de wordpress, copiamos un wp-config.php configurado para pasarle la conexión a base de datos por variables de entorno
+En este punto partiendo de la imagen base descargamos la paquetería necesaria, descargamos a ultima version de wordpress, copiamos un wp-config.php configurado para pasarle la conexión a base de datos por variables de entorno:
+
+# wp-config
+
 
