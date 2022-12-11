@@ -241,3 +241,7 @@ env[WORDPRESS_DB_USER] = $WORDPRESS_DB_USER;
 env[WORDPRESS_DB_PASSWORD] = $WORDPRESS_DB_PASSWORD;
 env[WORDPRESS_DB_NAME] = $WORDPRESS_DB_NAME;
 ```
+
+# despligue
+
+git clone https://github.com/elastic/ansible-elasticsearch.git roles/elasticsearch
