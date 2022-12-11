@@ -131,8 +131,6 @@ server {
   }
 
   client_max_body_size 100M;
-```
-  ```
   location ~ \.php$ {
     fastcgi_pass unix:/run/php/php7.4-fpm.sock;
     fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
@@ -190,6 +188,9 @@ server {
 
 
 }
+
+```
+```
 ```
 </details>
 
