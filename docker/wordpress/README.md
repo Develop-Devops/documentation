@@ -229,7 +229,7 @@ stderr_logfile_maxbytes=0
 environment=WORDPRESS_DB_HOST=%(ENV_WORDPRESS_DB_HOST)s,WORDPRESS_DB_USER=%(ENV_WORDPRESS_DB_USER)s,WORDPRESS_DB_PASSWORD=%(ENV_WORDPRESS_DB_PASSWORD)s,WORDPRESS_DB_NAME=%(ENV_WORDPRESS_DB_NAME)s
 ```
 
-# www.conf
+# ```www.conf```
 
 Y por último y no menos importante el .conf de php-fpm. Por qué modifico este .conf?; sencillo, estamos trabajando con diferentes niveles de abstracción Docker(que tiene sus variables de entorno), supervisor(que le inyecta variables de entorno a los demonios), php-fpm(también tienes sus variables). En resumen he pasado las mismas variables de un demonio a otro. Aca solo pondré el fragmento que he modificado.
 
