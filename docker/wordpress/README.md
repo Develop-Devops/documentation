@@ -193,7 +193,7 @@ server {
 
 
 # supervisor.conf
-
+Normalmente los contenedores tienen un único software a levantar, en este caso estaremos levan
 
 ```
 [supervisord]
