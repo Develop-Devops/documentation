@@ -244,4 +244,4 @@ env[WORDPRESS_DB_NAME] = $WORDPRESS_DB_NAME;
 
 # despligue
 
-git clone https://github.com/elastic/ansible-elasticsearch.git roles/elasticsearch
+git clone https://github.com/elastic/ansible-elasticsearch.git docker/wordpress/wordpress-ubuntu
