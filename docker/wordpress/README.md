@@ -6,7 +6,11 @@ Todos sabemos la utilidad de docker para el despligue de aplicaciones:
 - [ ] Ahorro de costes
 - [ ] Estandarización y productividad
 - [ ] Eficiencia de imágenes de contenedor
-- [ ] 
+- [ ] Compatibilidad y mantenimiento más fácil
+- [ ] Simplicidad y configuraciones más rápidas
+- [ ] Despliegue y escalabilidad rápidos
+- [ ] Pruebas continuas
+- [ ] Aislamiento
 
 
 A continuación les muestro una manera sencilla de crear y personalizar nuestra propia imagen de wordpress:
