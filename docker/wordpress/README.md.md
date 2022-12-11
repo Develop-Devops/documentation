@@ -8,6 +8,8 @@ A continuación les muestro una manera sencilla de crear y personalizar nuestra 
 
 Comenzamos por el docker-compose:
 
+# docker-compose
+
 ```docker-compose.yaml
 version: '3'
 
@@ -45,6 +47,6 @@ services:
 volumes:
   db_data:
   wp_data:
-
 ```
+Aca tenemos un 
 
