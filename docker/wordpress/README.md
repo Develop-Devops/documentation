@@ -109,7 +109,11 @@ define( 'DB_COLLATE', '' );
 
 <details><summary><b> .conf nginx</b></summary>
 Aca configuramos un .conf de nginx para responder por el puerto 80, puerto que mapeamos en el docker-compose, es una configuración básica, la configuraciones avanzadas las dejaremos para el nginx que sirva de proxy inverso
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 9d9f8bc6d14bf6282510f4c33b270c91e53c46b7
 ```
 server {
   server_name _;
@@ -131,7 +135,8 @@ server {
   }
 
   client_max_body_size 100M;
-
+```
+  ```
   location ~ \.php$ {
     fastcgi_pass unix:/run/php/php7.4-fpm.sock;
     fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
