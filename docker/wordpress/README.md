@@ -246,4 +246,7 @@ env[WORDPRESS_DB_NAME] = $WORDPRESS_DB_NAME;
 
 ```
 git clone https://github.com/Develop-Devops/documentation.git docker/wordpress/wordpress-ubuntu
+cd docker/wordpress/wordpress-ubuntu/
+
+docker-compose up -d
 ```
