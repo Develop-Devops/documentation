@@ -193,7 +193,7 @@ server {
 
 
 # supervisor.conf
-Normalmente los contenedores tienen un único software a levantar, en este caso estaremos levantando 2 demonios, php-fpm y nginx, para no complicarnos en temas de script y demas utilizaremos supervisor, demonio que nos permitirá levantar varios demonios; para dejarlo más claro, nuestro docker levantará supervisor que será el que levante php-fpm y 
+Normalmente los contenedores tienen un único software a levantar, en este caso estaremos levantando 2 demonios, php-fpm y nginx, para no complicarnos en temas de script y demas utilizaremos supervisor, demonio que nos permitirá levantar varios demonios; para dejarlo más claro, nuestro docker levantará supervisor que será el que levante php-fpm y nginx
 
 ```
 [supervisord]
@@ -219,3 +219,7 @@ stderr_logfile=/dev/stderr
 stderr_logfile_maxbytes=0
 environment=WORDPRESS_DB_HOST=%(ENV_WORDPRESS_DB_HOST)s,WORDPRESS_DB_USER=%(ENV_WORDPRESS_DB_USER)s,WORDPRESS_DB_PASSWORD=%(ENV_WORDPRESS_DB_PASSWORD)s,WORDPRESS_DB_NAME=%(ENV_WORDPRESS_DB_NAME)s
 ```
+
+# www.conf
+
+Y por último y no menos importante el .conf de php
