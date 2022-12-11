@@ -3,7 +3,9 @@ wordpress/ubuntu/docker
 
 Todos sabemos la utilidad de docker para el despligue de aplicaciones:
 
-- [ ] ahorro de costes
+- [ ] Ahorro de costes
+- [ ] Estandarización y productividad
+- [ ] Eficiencia de imágenes de contenedor
 - [ ] 
 
 
