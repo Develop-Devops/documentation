@@ -3,3 +3,4 @@
   - [gitlabci](gitlabci-README%2FREADME.md)
   - [sonarqube](sonarqube%2FREADME.md)
   - [terraform](Terraform%2FREADME.md)
+  - [docker](docker%2FREADME.md)
