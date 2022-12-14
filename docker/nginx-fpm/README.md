@@ -4,6 +4,7 @@
 docker build -f Dockerfile.nginx -t nginx .
 ```
 <details><summary><b> Dockerfile</b></summary>
+
 ```
 FROM debian:buster-slim
 
@@ -68,6 +69,7 @@ EXPOSE 80 443
 CMD ["nginx", "-g", "daemon off;"]
 
 ```
+
 </details>
 # php
 
@@ -75,6 +77,7 @@ CMD ["nginx", "-g", "daemon off;"]
 docker build -t php .
 ```
 <details><summary><b> Dockerfile</b></summary>
+
 ```
 # Set master image
 FROM php:7.3-fpm-alpine
@@ -163,4 +166,5 @@ RUN rm -rf /tmp/* /usr/local/lib/php/doc/* /var/cache/apk/*
 EXPOSE 9000
 CMD ["php-fpm"]
 ```
+
 </details>
