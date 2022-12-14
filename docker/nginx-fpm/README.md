@@ -1,9 +1,10 @@
 
 # nginx
-## Dockerfile
+<details><summary><b> Dockerfile</b></summary>
 ```
 docker build -f Dockerfile.nginx -t nginx .
 ```
+</details>
 # php
 
 <details><summary><b> Dockerfile</b></summary>
