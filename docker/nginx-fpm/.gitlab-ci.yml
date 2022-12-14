@@ -1,0 +1,60 @@
+stages:
+  - install
+  - notify
+  
+install:
+  stage: install
+  variables:
+    DOCKER_DRIVER: overlay2
+    DOCKER_TLS_CERTDIR: ""
+  image: 
+    name: docker:latest
+    entrypoint: [""]
+  services:
+    - docker:dind
+  before_script:
+    - DOCKER_HOST='/var/run/docker.sock'; if [ ! -S "$DOCKER_HOST" ]; then DOCKER_HOST='tcp://docker:2375'; export DOCKER_HOST=$DOCKER_HOST;fi; echo $DOCKER_HOST
+    - apk add --no-cache curl jq py3-pip
+    - pip install awscli
+    - eval $(aws ecr get-login --no-include-email --region $AWS_REGION | sed 's|https://||')
+  script:
+    - docker build -t php .
+    - docker tag php:latest 704543720608.dkr.ecr.us-west-2.amazonaws.com/php:latest
+    - docker push 704543720608.dkr.ecr.us-west-2.amazonaws.com/php:latest
+    - echo "DEPLOYED SUCCESSFULLY"
+  
+nginx:
+  stage: install
+  variables:
+    DOCKER_DRIVER: overlay2
+    DOCKER_TLS_CERTDIR: ""
+  image: 
+    name: docker:latest
+    entrypoint: [""]
+  services:
+    - docker:dind
+  before_script:
+    - DOCKER_HOST='/var/run/docker.sock'; if [ ! -S "$DOCKER_HOST" ]; then DOCKER_HOST='tcp://docker:2375'; export DOCKER_HOST=$DOCKER_HOST;fi; echo $DOCKER_HOST
+    - apk add --no-cache curl jq py3-pip
+    - pip install awscli
+    - eval $(aws ecr get-login --no-include-email --region $AWS_REGION | sed 's|https://||')
+  script:
+    - docker build -f Dockerfile.nginx -t nginx .
+    - docker tag nginx:latest 704543720608.dkr.ecr.us-west-2.amazonaws.com/nginx:latest
+    - docker push 704543720608.dkr.ecr.us-west-2.amazonaws.com/nginx:latest
+    - echo "DEPLOYED SUCCESSFULLY"
+
+success:
+  image: 
+    name: ruby:2.5
+  stage: notify
+  script:
+    - echo "curl -i -X GET \"https://api.telegram.org/bot5289978777:AAHaa9Ur7hxtXvAy04yryHXS6CkD1iIKuno/sendMessage?chat_id=-704686534&text=The '"$CI_PROJECT_URL"/-/tree/"$CI_COMMIT_BRANCH"' job execution was successful, for details go to '"$CI_PROJECT_URL"/-/pipelines/"$CI_PIPELINE_ID"' \"" | sh
+
+failure:
+  image: 
+    name: ruby:2.5
+  stage: notify
+  when: on_failure
+  script:
+    - echo "curl -i -X GET \"https://api.telegram.org/bot5289978777:AAHaa9Ur7hxtXvAy04yryHXS6CkD1iIKuno/sendMessage?chat_id=-704686534&text=🚨🚨🚨The '"$CI_PROJECT_URL"/-/tree/"$CI_COMMIT_BRANCH"' job execution has failed, for details go to '"$CI_PROJECT_URL"/-/pipelines/"$CI_PIPELINE_ID"' \"" | sh
