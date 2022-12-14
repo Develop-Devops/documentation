@@ -1,3 +1,3 @@
 - [Contenido]
   - [wordpress-ubuntu](wordpress%2FREADME.md)
-  - nginx/php
+  - [nginx/php](nginx-fpm%2FREADME.md)
