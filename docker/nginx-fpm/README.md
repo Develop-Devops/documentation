@@ -1,12 +1,18 @@
 
 # nginx
-<details><summary><b> Dockerfile</b></summary>
 ```
 docker build -f Dockerfile.nginx -t nginx .
+```
+<details><summary><b> Dockerfile</b></summary>
+```
+
 ```
 </details>
 # php
 
+```
+docker build -t php .
+```
 <details><summary><b> Dockerfile</b></summary>
 ```
 # Set master image
@@ -95,8 +101,5 @@ RUN rm -rf /tmp/* /usr/local/lib/php/doc/* /var/cache/apk/*
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
 CMD ["php-fpm"]
-```
-```
-docker build -t php .
 ```
 </details>
