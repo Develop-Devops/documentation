@@ -6,7 +6,7 @@ docker build -f Dockerfile.nginx -t nginx .
 ```
 # php
 
-## Dockerfile
+<details><summary><b> Dockerfile</b></summary>
 ```
 # Set master image
 FROM php:7.3-fpm-alpine
@@ -98,3 +98,4 @@ CMD ["php-fpm"]
 ```
 docker build -t php .
 ```
+<\details>
