@@ -99,4 +99,4 @@ CMD ["php-fpm"]
 ```
 docker build -t php .
 ```
-<\details>
+</details>
