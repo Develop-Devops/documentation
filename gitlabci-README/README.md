@@ -4,6 +4,7 @@
   - [Variables del grupo](#variables-del-grupo)
   - [Variables del repositorio](#variables-del-repositorio)
     - [variables heredadas del grupo](#variables-heredadas-del-grupo)
+- [Example](#example)
 
 # Despligue
 
@@ -36,3 +37,6 @@ CI_COMMIT_BRANCH: Rama que esta corriendo
 
 
 
+# Example
+
+https://gitlab.com/devops-develop/gitlabci.git
