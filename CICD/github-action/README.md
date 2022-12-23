@@ -82,4 +82,4 @@ en este apartado se agregan los jobs y los pasos necesario para hacer el desplie
 #### steps
 
 
-En settings -> Secrets -> Actions agrega
+En `settings -> Secrets -> Actions` agregaremos las variables de entorno
