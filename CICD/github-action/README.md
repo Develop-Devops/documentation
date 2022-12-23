@@ -69,4 +69,12 @@ Aca tenemos el nombre del deploy `Deploy to ECR` y las ramas que se dispararan c
      - 'bugfix/**'
      - 'hotfix/**'
 ```
+# 
+```
+jobs:
+  build:
+    name: Build Image
+    runs-on: ubuntu-latest
+```
+
 
