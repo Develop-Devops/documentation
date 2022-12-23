@@ -82,4 +82,4 @@ en este apartado se agregan los jobs y los pasos necesario para hacer el desplie
 #### steps
 
 
-En settings 
+En settings -> Secrets -> Actions agrega
