@@ -77,5 +77,7 @@ jobs:
     name: Build Image
     runs-on: ubuntu-latest
 ```
-en este apartado se agregan los jobs y los pasos necesario para hacer el despliegue, en este caso estamos corriendo el job `Build Image` corre en un runner de github llamado `ubuntu-latest` aca podemos agregar otras opciones que tiene github o un runner propio agregado por 
+en este apartado se agregan los jobs y los pasos necesario para hacer el despliegue, en este caso estamos corriendo el job `Build Image` corre en un runner de github llamado `ubuntu-latest` aca podemos agregar otras opciones que tiene github o un runner propio agregado por nosotros
+
+#### steps
 
