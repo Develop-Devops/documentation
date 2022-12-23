@@ -81,5 +81,6 @@ en este apartado se agregan los jobs y los pasos necesario para hacer el desplie
 
 En `settings -> Secrets -> Actions` agregaremos las variables de entorno que necesitaremos para el despliegue en aws, estas serán usadas en el despliegue con la ventaja que no serán publicas en el momento del despliegue lo cual le agrega seguridad a nuestro despliegue:
 
+![qownnotes-media-glovbf](../../media/qownnotes-media-glovbf.png)
 
 
