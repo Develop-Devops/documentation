@@ -77,5 +77,5 @@ jobs:
     name: Build Image
     runs-on: ubuntu-latest
 ```
-en este apartado se agregan los jobs y los pasos necesario para desplegar el
+en este apartado se agregan los jobs y los pasos necesario para hacer el despliegue, en este caso estamos corriendo el job 
 
