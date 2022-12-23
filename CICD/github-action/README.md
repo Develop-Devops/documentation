@@ -60,4 +60,4 @@ on:
      - 'hotfix/**'
 ```
 
-Aca tenemos el nombre del deploy Deploy to ECR
+Aca tenemos el nombre del deploy `Deploy to ECR` y las ramas que se dispararan cuando se haga un cambio en este caso
