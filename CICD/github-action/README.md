@@ -45,3 +45,15 @@ jobs:
       run: |
         aws ecs update-service --cluster calorify --service ${{ secrets.AWS_SERVICE }} --force-new-deployment
 ```
+
+Explico el deploy
+
+name: Deploy to ECR
+
+on:
+ push:
+    branches:
+     - dev
+     - 'feature/**'
+     - 'bugfix/**'
+     - 'hotfix/**'
