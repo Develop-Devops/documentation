@@ -48,6 +48,7 @@ jobs:
 
 Explico el deploy
 
+```
 name: Deploy to ECR
 
 on:
@@ -57,3 +58,6 @@ on:
      - 'feature/**'
      - 'bugfix/**'
      - 'hotfix/**'
+```
+
+Aca tenemos el nombre del deploy Deploy to ECR
