@@ -1,2 +1,2 @@
 
-Crear directorio .github/workflows/ y dentro desarrollar un 
+Crear directorio .github/workflows/ y dentro escribir un .y
