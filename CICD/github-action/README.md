@@ -38,9 +38,6 @@ jobs:
         ECR_REPOSITORY: calorify-portal
         IMAGE_TAG: dev
       run: |
-        rm -rf .env*
-        echo "$ENV_NAME" > .env.production
-        cat .env.production
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
     - name: Force deployment
