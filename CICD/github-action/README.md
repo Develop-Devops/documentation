@@ -17,7 +17,7 @@ jobs:
     name: Build Image
     runs-on: ubuntu-latest
 
-    steps:
+   steps:
     - name: Check out code
       uses: actions/checkout@v2
 
