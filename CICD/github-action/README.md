@@ -1,2 +1,2 @@
 
-Create di
+Crear directorio .github/workflows/ y dentro desarrollar un 
