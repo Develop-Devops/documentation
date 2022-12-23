@@ -43,5 +43,5 @@ jobs:
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
     - name: Force deployment
       run: |
-        aws ecs update-service --cluster calorify --service calorify-staging-portal --force-new-deployment
+        aws ecs update-service --cluster calorify --service ${{ secrets.AWS_SERVICE }} --force-new-deployment
 ```
