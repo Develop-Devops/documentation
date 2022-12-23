@@ -39,7 +39,7 @@ jobs:
           ECR_REPOSITORY: nginx
           IMAGE_TAG: dev
         run: |
-          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG -f docker/nginx-fpm/Dockerfile.nginx .
+          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG -f docker/nginx-fpm/Dockerfile.nginx docker/nginx-fpm/
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
 ```
 
