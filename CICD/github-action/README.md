@@ -84,3 +84,7 @@ En `settings -> Secrets -> Actions` agregaremos las variables de entorno que nec
 ![qownnotes-media-glovbf](../../media/qownnotes-media-glovbf.png)
 
 
+# Despliegue
+
+![qownnotes-media-VQLeqt](../../media/qownnotes-media-VQLeqt.png)
+
