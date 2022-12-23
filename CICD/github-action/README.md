@@ -82,4 +82,4 @@ en este apartado se agregan los jobs y los pasos necesario para hacer el desplie
 #### steps
 
 
-En `settings -> Secrets -> Actions` agregaremos las variables de entorno que necesitaremos para el d
+En `settings -> Secrets -> Actions` agregaremos las variables de entorno que necesitaremos para el despliegue en aws y 
