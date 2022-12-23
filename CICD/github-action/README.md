@@ -13,7 +13,7 @@ on:
      - 'bugfix/**'
      - 'hotfix/**'
 jobs:
-  build:    
+  build:
     name: Build Image
     runs-on: ubuntu-latest
 
