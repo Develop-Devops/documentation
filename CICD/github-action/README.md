@@ -36,14 +36,11 @@ jobs:
     - name: Build, tag, and push image to Amazon ECR
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECR_REPOSITORY: calorify-portal
+        ECR_REPOSITORY: nginx
         IMAGE_TAG: dev
       run: |
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-    - name: Force deployment
-      run: |
-        aws ecs update-service --cluster calorify --service ${{ secrets.AWS_SERVICE }} --force-new-deployment
 ```
 
 ## Explicación del deploy
@@ -82,4 +79,8 @@ en este apartado se agregan los jobs y los pasos necesario para hacer el desplie
 #### steps
 
 
-En `settings -> Secrets -> Actions` agregaremos las variables de entorno que necesitaremos para el despliegue en aws, estas serán usadas en el despliegue con la ventaja que no serán publicas en el momento del despliegue lo cual le agrega seguridad a nuestro despliegue
+En `settings -> Secrets -> Actions` agregaremos las variables de entorno que necesitaremos para el despliegue en aws, estas serán usadas en el despliegue con la ventaja que no serán publicas en el momento del despliegue lo cual le agrega seguridad a nuestro despliegue:
+
+![qownnotes-media-glovbf](../../media/qownnotes-media-glovbf.png)
+
+
