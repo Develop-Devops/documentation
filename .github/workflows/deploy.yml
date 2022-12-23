@@ -1,16 +1,16 @@
 name: Deploy to ECR
 
-  on:
-  push:
-      branches:
-      - dev
-      - 'feature/**'
-      - 'bugfix/**'
-      - 'hotfix/**'
-    jobs:
-      build:
-        name: Build Image
-        runs-on: ubuntu-latest
+on:
+ push:
+    branches:
+     - dev
+     - 'feature/**'
+     - 'bugfix/**'
+     - 'hotfix/**'
+jobs:
+  build:    
+    name: Build Image
+    runs-on: ubuntu-latest
 
       steps:
         - name: Check out code
