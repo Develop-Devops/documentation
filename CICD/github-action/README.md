@@ -3,6 +3,7 @@ Crear directorio .github/workflows/ y dentro escribir un .yml por ejemplo
 
 `.github/workflows/deploy.yml`
 
+```
 name: Deploy to ECR
 
 on:
@@ -43,3 +44,4 @@ jobs:
     - name: Force deployment
       run: |
         aws ecs update-service --cluster calorify --service calorify-staging-portal --force-new-deployment
+```
