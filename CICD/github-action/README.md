@@ -46,7 +46,9 @@ jobs:
         aws ecs update-service --cluster calorify --service ${{ secrets.AWS_SERVICE }} --force-new-deployment
 ```
 
-Explico el deploy
+## Explicación del deploy
+
+### Nombre del deploy
 
 ```
 name: Deploy to ECR
