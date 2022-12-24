@@ -74,3 +74,9 @@ Agregamos una nueva
 ![qownnotes-media-oiPCWe](../../media/qownnotes-media-oiPCWe.png)
 
 Ahora en nuestro pipeline en vez de 
+
+`- script: echo Hello, world!`
+
+sustituimos por 
+
+- script: echo $
