@@ -43,7 +43,7 @@ Requires=network.target remote-fs.target
 After=network.target remote-fs.target
 [Service]
 Type=simple
-User=kafka
+User=ubuntu
 ExecStart=/home/ubuntu/myagent/run.sh
 Restart=on-abnormal
 [Install]
