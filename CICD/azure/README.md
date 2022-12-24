@@ -17,4 +17,4 @@ https://dev.azure.com/{your-organization}
 # Pool
 Eliges el pool al que quieras agregarlo, en mi caso agregue uno llamado mypool
 
-Una vez configurado correr ./run.sh
+Una vez configurado correr ./run.sh y comenzamos a ver al sevidor 
