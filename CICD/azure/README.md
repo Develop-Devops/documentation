@@ -46,3 +46,4 @@ y nos lleva a una pantalla como esta:
 
 ![qownnotes-media-eUEsmj](../../media/qownnotes-media-eUEsmj.png)
 
+Damos starter pipeline dado de que hasta el momento no disponemos de un
