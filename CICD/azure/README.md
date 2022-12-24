@@ -71,3 +71,6 @@ Agregamos una nueva
 
 ![qownnotes-media-hKlpga](../../media/qownnotes-media-hKlpga.png)
 
+![qownnotes-media-oiPCWe](../../media/qownnotes-media-oiPCWe.png)
+
+Ahora en nuestro pipeline en vez de 
