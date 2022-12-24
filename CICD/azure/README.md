@@ -63,4 +63,4 @@ por
 
 `pool: mypool`
 
-agremosle una pequeña dificultad y de paso una herramienta q nos será util (variables). Si notan en el 
+agremosle una pequeña dificultad y de paso una herramienta q nos será util (variables). Si notan en el front 
