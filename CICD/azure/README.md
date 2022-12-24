@@ -34,7 +34,7 @@ Una vez configurado correr ./run.sh y comenzamos a ver al servicio escuchando po
 Para evitar tener que levantar el agente manualmente crearemos un demonio que lo levante por nosotros y lo mantenga activo:
 
 
-cat << EOF > /etc/systemd/system/zookeeper.service
+cat << EOF > /etc/systemd/system/vsts-agent.service
 
 
 [Unit]
@@ -43,7 +43,7 @@ After=network.target remote-fs.target
 [Service]
 Type=simple
 User=kafka
-ExecStart=/home/kafka/kafka_2.12-2.8.1/bin/zookeeper-server-start.sh /home/kafka/kafka_2.12-2.8.1/config/zookeeper.properties
+ExecStart=/home/ubuntu/myagent/run.sh
 ExecStop=/home/kafka/kafka_2.12-2.8.1/bin/zookeeper-server-stop.sh
 Restart=on-abnormal
 [Install]
