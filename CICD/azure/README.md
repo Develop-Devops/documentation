@@ -85,4 +85,8 @@ Salvamos y corremos
 
 ![qownnotes-media-vzcYqN](../../media/qownnotes-media-vzcYqN.png)
 
-Vemos nuest
+Vemos nuestro job en cola
+
+hasta que termina:
+
+![qownnotes-media-JatPsq](../../media/qownnotes-media-JatPsq.png)
