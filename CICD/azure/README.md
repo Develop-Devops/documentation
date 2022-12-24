@@ -27,4 +27,6 @@ Una vez configurado el agente procedemos a crear un pipeline:
 
 ## Crear repositorio
 
-Nos dirigimos a nues
+Nos dirigimos a nuestra organización -> Repos -> New Repository
+
+![qownnotes-media-kCTzps](../../media/qownnotes-media-kCTzps.png)
