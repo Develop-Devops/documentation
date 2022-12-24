@@ -17,4 +17,10 @@ https://dev.azure.com/{your-organization}
 # Pool
 Eliges el pool al que quieras agregarlo, en mi caso agregue uno llamado mypool
 
-Una vez configurado correr ./run.sh y comenzamos a ver al sevidor 
+Una vez configurado correr ./run.sh y comenzamos a ver al servicio escuchando por nuevos jobs:
+
+![qownnotes-media-twQWyR](../../media/qownnotes-media-twQWyR.png)
+
+# Pipeline
+
+Una
