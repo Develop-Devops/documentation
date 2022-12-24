@@ -30,6 +30,24 @@ Una vez configurado correr ./run.sh y comenzamos a ver al servicio escuchando po
 
 ![qownnotes-media-twQWyR](../../media/qownnotes-media-twQWyR.png)
 
+## daemon
+
+cat << EOF > /etc/systemd/system/zookeeper.service
+
+
+[Unit]
+Requires=network.target remote-fs.target
+After=network.target remote-fs.target
+[Service]
+Type=simple
+User=kafka
+ExecStart=/home/kafka/kafka_2.12-2.8.1/bin/zookeeper-server-start.sh /home/kafka/kafka_2.12-2.8.1/config/zookeeper.properties
+ExecStop=/home/kafka/kafka_2.12-2.8.1/bin/zookeeper-server-stop.sh
+Restart=on-abnormal
+[Install]
+WantedBy=multi-user.target
+
+EOF
 # Pipeline
 
 Una vez configurado el agente procedemos a crear un pipeline:
