@@ -49,4 +49,9 @@ y nos lleva a una pantalla como esta:
 Damos starter pipeline dado de que hasta el momento no disponemos de uno:
 ![qownnotes-media-tbreWA](../../media/qownnotes-media-tbreWA.png)
 
-y rapidamente nos genera un pipeline de 
+y rapidamente nos genera un pipeline de ejemplo
+
+En nuestro caso cambiaremos el pool por el creado por nosotros
+
+pool:
+  vmImage: ubuntu-latest
