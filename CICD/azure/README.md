@@ -38,4 +38,11 @@ Crearemos uno llamado tester
 
 ## Build
 
-Para facilitarnos el trabajo podemos ir al botón Set up Build qu
+Para facilitarnos el trabajo podemos ir al botón Set up Build que aparece en el propio repositorio:
+
+![qownnotes-media-lQrYKL](../../media/qownnotes-media-lQrYKL.png)
+
+y nos lleva a una pantalla como esta:
+
+![qownnotes-media-eUEsmj](../../media/qownnotes-media-eUEsmj.png)
+
