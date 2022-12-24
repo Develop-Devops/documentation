@@ -53,5 +53,13 @@ y rapidamente nos genera un pipeline de ejemplo
 
 En nuestro caso cambiaremos el pool por el creado por nosotros
 
+cambiamos:
+```
 pool:
   vmImage: ubuntu-latest
+```
+
+por
+
+`pool: mypool`
+
