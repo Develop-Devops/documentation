@@ -9,3 +9,5 @@ tar zxvf vsts-agent-linux-x64-2.213.2.tar.gz
 # Server URL
 https://dev.azure.com/{your-organization}
 
+# Personal token
+![qownnotes-media-ekDPgA](../../media/qownnotes-media-ekDPgA.png)
