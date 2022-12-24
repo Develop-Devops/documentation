@@ -81,4 +81,8 @@ sustituimos por
 
 `- script: echo $(HELLO)`
 
-s
+Salvamos y corremos
+
+![qownnotes-media-vzcYqN](../../media/qownnotes-media-vzcYqN.png)
+
+Vemos nuest
