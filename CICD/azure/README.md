@@ -67,3 +67,6 @@ agremosle una pequeña dificultad y de paso una herramienta q nos será util (va
 
 ![qownnotes-media-kbsttg](../../media/qownnotes-media-kbsttg.png)
 
+Agregamos una nueva
+
+
