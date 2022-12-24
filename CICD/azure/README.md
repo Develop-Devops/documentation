@@ -31,7 +31,8 @@ Una vez configurado correr ./run.sh y comenzamos a ver al servicio escuchando po
 ![qownnotes-media-twQWyR](../../media/qownnotes-media-twQWyR.png)
 
 ## daemon
-Para evitar tener que levantar el agente manualmente 
+Para evitar tener que levantar el agente manualmente crearemos un demonio que lo levante por nosotros y lo mantenga activo:
+
 
 cat << EOF > /etc/systemd/system/zookeeper.service
 
