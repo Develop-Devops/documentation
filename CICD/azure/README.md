@@ -1,9 +1,12 @@
+- [Adicionar agente al pool](#adicionar-agente-al-pool)
 - [Server URL](#server-url)
 - [Personal token](#personal-token)
 - [Pool](#pool)
+  - [daemon](#daemon)
 - [Pipeline](#pipeline)
   - [Crear repositorio](#crear-repositorio)
   - [Build](#build)
+
 
 1
 # Adicionar agente al pool
