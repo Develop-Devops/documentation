@@ -38,3 +38,4 @@ Crearemos uno llamado tester
 
 ## Build
 
+Para facilitarnos el trabajo podemos ir al botón Set up Build qu
