@@ -94,4 +94,4 @@ hasta que termina:
 Veamos que paso:
 ![qownnotes-media-dcYySL](../../media/qownnotes-media-dcYySL.png)
 
-Nuestro jo
+Nuestro job corrío satisfactoriamente nuestros 2 pasos:
