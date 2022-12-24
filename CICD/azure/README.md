@@ -90,3 +90,8 @@ Vemos nuestro job en cola
 hasta que termina:
 
 ![qownnotes-media-JatPsq](../../media/qownnotes-media-JatPsq.png)
+
+Veamos que paso:
+![qownnotes-media-dcYySL](../../media/qownnotes-media-dcYySL.png)
+
+Nuestro jo
