@@ -79,4 +79,6 @@ Ahora en nuestro pipeline en vez de
 
 sustituimos por 
 
-- script: echo $
+`- script: echo $(HELLO)`
+
+s
