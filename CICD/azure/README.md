@@ -23,4 +23,8 @@ Una vez configurado correr ./run.sh y comenzamos a ver al servicio escuchando po
 
 # Pipeline
 
-Una vez configurado el agente procedemos a crear un pipeline
+Una vez configurado el agente procedemos a crear un pipeline:
+
+## Crear repositorio
+
+Nos dirigimos a nues
