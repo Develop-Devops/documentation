@@ -5,7 +5,8 @@
   - [Crear repositorio](#crear-repositorio)
   - [Build](#build)
 
-Adic
+1
+# Adicionar agente al pool
 Loguearse con un usuario distinto a root en mi caso utilizaré ubuntu
 
 ```
