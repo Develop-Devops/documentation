@@ -98,7 +98,11 @@ Nuestro job corrío satisfactoriamente nuestros 2 pasos:
 
 `Run a one-line script`
 
-Dando nuestro Hello World
+Dando nuestro Hello World!
 ![qownnotes-media-vqQxGB](../../media/qownnotes-media-vqQxGB.png)
+
+`Run a multi-line script`
+
+![qownnotes-media-hpqEXc](../../media/qownnotes-media-hpqEXc.png)
 
 
