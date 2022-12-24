@@ -31,9 +31,10 @@ Una vez configurado correr ./run.sh y comenzamos a ver al servicio escuchando po
 ![qownnotes-media-twQWyR](../../media/qownnotes-media-twQWyR.png)
 
 ## daemon
-Para evitar tener que levantar el agente manualmente crearemos un demonio que lo levante por nosotros y lo mantenga activo:
+Para evitar tener que levantar el agente manualmente crearemos un demonio que lo levante por nosotros y lo mantenga activo. Corremos la siguiente línea
 
 
+```
 cat << EOF > /etc/systemd/system/vsts-agent.service
 
 
@@ -44,12 +45,13 @@ After=network.target remote-fs.target
 Type=simple
 User=kafka
 ExecStart=/home/ubuntu/myagent/run.sh
-ExecStop=/home/kafka/kafka_2.12-2.8.1/bin/zookeeper-server-stop.sh
 Restart=on-abnormal
 [Install]
 WantedBy=multi-user.target
 
 EOF
+```
+
 # Pipeline
 
 Una vez configurado el agente procedemos a crear un pipeline:
