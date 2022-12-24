@@ -63,4 +63,7 @@ por
 
 `pool: mypool`
 
-agremosle una pequeña dificultad y de paso una herramienta q nos será util (variables). Si notan en el pan
+agremosle una pequeña dificultad y de paso una herramienta q nos será util (variables). Si notan en el panel hay un apartado variable
+
+![qownnotes-media-kbsttg](../../media/qownnotes-media-kbsttg.png)
+
