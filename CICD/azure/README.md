@@ -35,7 +35,7 @@ Para evitar tener que levantar el agente manualmente crearemos un demonio que lo
 
 
 ```
-sudo cat << EOF > /etc/systemd/system/vsts-agent.service
+cat << EOF > /etc/systemd/system/vsts-agent.service
 
 
 [Unit]
