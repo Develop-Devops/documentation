@@ -30,3 +30,8 @@ Una vez configurado el agente procedemos a crear un pipeline:
 Nos dirigimos a nuestra organización -> Repos -> New Repository
 
 ![qownnotes-media-kCTzps](../../media/qownnotes-media-kCTzps.png)
+
+Crearemos uno llamado tester
+
+![qownnotes-media-WHxJZf](../../media/qownnotes-media-WHxJZf.png)
+
