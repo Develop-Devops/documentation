@@ -51,9 +51,12 @@ WantedBy=multi-user.target
 
 EOF
 ```
+```
 systemctl start vsts-agent
 systemctl enable vsts-agent
 systemctl status vsts-agent
+```
+![qownnotes-media-mFioXl](../../media/qownnotes-media-mFioXl.png)
 
 
 # Pipeline
