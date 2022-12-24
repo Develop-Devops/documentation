@@ -69,4 +69,5 @@ agremosle una pequeña dificultad y de paso una herramienta q nos será util (va
 
 Agregamos una nueva
 
+![qownnotes-media-hKlpga](../../media/qownnotes-media-hKlpga.png)
 
