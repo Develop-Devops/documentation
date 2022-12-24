@@ -31,11 +31,11 @@ Una vez configurado correr ./run.sh y comenzamos a ver al servicio escuchando po
 ![qownnotes-media-twQWyR](../../media/qownnotes-media-twQWyR.png)
 
 ## daemon
-Para evitar tener que levantar el agente manualmente crearemos un demonio que lo levante por nosotros y lo mantenga activo. Corremos la siguiente línea
+Para evitar tener que levantar el agente manualmente crearemos un demonio que lo levante por nosotros y lo mantenga activo. Corremos la siguiente línea y probamos:
 
 
 ```
-cat << EOF > /etc/systemd/system/vsts-agent.service
+sudo cat << EOF > /etc/systemd/system/vsts-agent.service
 
 
 [Unit]
