@@ -15,4 +15,6 @@ https://dev.azure.com/{your-organization}
 
 
 # Pool
-Eliges el pool al que quieras agregarlo
+Eliges el pool al que quieras agregarlo, en mi caso agregue uno llamado mypool
+
+Una vez configurado correr ./run.sh
