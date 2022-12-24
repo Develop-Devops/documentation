@@ -51,6 +51,10 @@ WantedBy=multi-user.target
 
 EOF
 ```
+systemctl start vsts-agent
+systemctl enable vsts-agent
+systemctl status vsts-agent
+
 
 # Pipeline
 
