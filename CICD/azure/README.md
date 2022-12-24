@@ -1,14 +1,12 @@
 - [Adicionar agente al pool](#adicionar-agente-al-pool)
-- [Server URL](#server-url)
-- [Personal token](#personal-token)
-- [Pool](#pool)
+  - [Server URL](#server-url)
+  - [Personal token](#personal-token)
+  - [Pool](#pool)
   - [daemon](#daemon)
 - [Pipeline](#pipeline)
   - [Crear repositorio](#crear-repositorio)
   - [Build](#build)
 
-
-1
 # Adicionar agente al pool
 Loguearse con un usuario distinto a root en mi caso utilizaré ubuntu
 
@@ -26,7 +24,7 @@ https://dev.azure.com/{your-organization}
 ![qownnotes-media-ekDPgA](../../media/qownnotes-media-ekDPgA.png)
 
 
-# Pool
+## Pool
 Eliges el pool al que quieras agregarlo, en mi caso agregue uno llamado mypool
 
 Una vez configurado correr ./run.sh y comenzamos a ver al servicio escuchando por nuevos jobs:
