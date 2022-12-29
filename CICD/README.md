@@ -2,3 +2,4 @@
   - [azure](azure%2FREADME.md)
   - [github-action](github-action%2FREADME.md)
   - [gitlabci](gitlabci%2FREADME.md)
+  - cir
