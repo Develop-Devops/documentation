@@ -86,7 +86,7 @@ workflows:
 ```
 
 
-![qownnotes-media-QRCSmO](../../media/qownnotes-media-QRCSmO.png)
+![qownnotes-media-oFbRpa](../../media/qownnotes-media-oFbRpa.png)
 
 Y vemos que ya esta corriendo en circleci
 
