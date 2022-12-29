@@ -1,5 +1,5 @@
 
-Para crearnos una cuenta en CircleCI haremos uso de una cuenta en github, nos logueamos en nuestra cuenta de https://github.com/:
+Para crearnos una cuenta en CircleCI haremos uso de una cuenta en github, nos logueamos en nuestra cuenta de https://github.com/ o https://gitlab.com/:
 
 ![qownnotes-media-PXAaje](../../media/qownnotes-media-PXAaje.png)
 
