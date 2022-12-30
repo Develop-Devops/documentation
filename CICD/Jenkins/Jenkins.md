@@ -121,7 +121,8 @@ Enter name and select Multibranch Pipeline
 
 ### Generate private key
 
-![qownnotes-media-srHRRL](../../media/qownnotes-media-srHRRL.png)
+![qownnotes-media-eTDyhO](../../media/qownnotes-media-eTDyhO.png)
+
 
 
 
