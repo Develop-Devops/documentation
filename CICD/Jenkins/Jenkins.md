@@ -109,7 +109,8 @@ Enter name and select Multibranch Pipeline
 
 ![qownnotes-media-sAemVz](../../media/qownnotes-media-sAemVz.png)
 
-![qownnotes-media-ajBnNU](../../media/qownnotes-media-ajBnNU.png)
+![qownnotes-media-oBtVic](../../media/qownnotes-media-oBtVic.png)
+
 
 
 
