@@ -86,6 +86,9 @@ Copy password in /var/lib/jenkins/secrets/initialAdminPassword
 ![qownnotes-media-wvTvuG](../../media/qownnotes-media-wvTvuG.png)
 
 
+# Configure pipeline
+
+
 
 
 
