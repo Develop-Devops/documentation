@@ -21,7 +21,7 @@ sudo systemctl status jenkins
 
 ## Cofigure virtualhost
 ```
-cat << EOF > /etc/nginx/sites-available/
+cat << EOF > /etc/nginx/sites-available/jenkins
 
 server {
 
@@ -32,9 +32,6 @@ server {
 
         }
         location / {
-                # First attempt to serve request as file, then
-                # as directory, then fall back to displaying a 404.
-                #try_files $uri $uri/ =404;
 
                 proxy_set_header X-Real-IP  $remote_addr;
                 proxy_set_header X-Forwarded-For $remote_addr;
