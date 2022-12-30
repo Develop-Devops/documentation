@@ -119,6 +119,9 @@ Enter name and select Multibranch Pipeline
 
 ![qownnotes-media-SwRryz](../../media/qownnotes-media-SwRryz.png)
 
+### Generate secret key
+
+![qownnotes-media-srHRRL](../../media/qownnotes-media-srHRRL.png)
 
 
 
