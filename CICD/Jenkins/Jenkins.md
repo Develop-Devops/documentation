@@ -92,7 +92,7 @@ Copy password in /var/lib/jenkins/secrets/initialAdminPassword
 
 ![qownnotes-media-YLWaYR](../../media/qownnotes-media-YLWaYR.png)
 
-
+Select 
 
 
 
