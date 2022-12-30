@@ -21,7 +21,7 @@ sudo systemctl status jenkins
 
 ## Cofigure virtualhost
 ```
-cat << EOF > /etc/systemd/system/vsts-agent.service
+cat << EOF > /etc/nginx/sites-available/
 
 server {
 
