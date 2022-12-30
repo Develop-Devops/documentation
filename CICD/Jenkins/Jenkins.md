@@ -58,4 +58,4 @@ nginx -t
 certbot --nginx
 ```
 
-open https:
+Open https://<your hostname> in your browser
