@@ -24,7 +24,6 @@ sudo systemctl status jenkins
 
 server {
 
-        root /var/www/html;
         server_name jenkins.weweb.com;
         location /health/ {
                 return 200 "ok";
