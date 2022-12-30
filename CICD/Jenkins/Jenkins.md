@@ -20,6 +20,7 @@ sudo systemctl status jenkins
 
 
 ## Cofigure virtualhost
+host=
 ```
 cat << EOF > /etc/nginx/sites-available/jenkins
 
