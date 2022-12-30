@@ -124,6 +124,8 @@ Enter name and select Multibranch Pipeline
 ![qownnotes-media-eTDyhO](../../media/qownnotes-media-eTDyhO.png)
 
 
+openssl pkcs8 -topk8 -inform PEM -outform PEM -in key-in-your-downloads-folder.pem -out converted-github-app.pem -nocrypt
+
 
 
 
