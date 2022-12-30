@@ -21,7 +21,8 @@ sudo systemctl status jenkins
 
 ## Cofigure virtualhost
 ```
-host_name='jenkins.weweb.com'
+host_name='your hostname'
+
 cat << EOF > /etc/nginx/sites-available/jenkins
 
 server {
