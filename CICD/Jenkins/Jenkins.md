@@ -21,6 +21,7 @@ sudo systemctl status jenkins
 
 ## Cofigure virtualhost
 ```
+cat << EOF > /etc/systemd/system/vsts-agent.service
 
 server {
 
@@ -47,5 +48,7 @@ server {
     listen 80;
 
 }
+
+EOF
 ```
 
