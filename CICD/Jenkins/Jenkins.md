@@ -75,7 +75,8 @@ Copy password in /var/lib/jenkins/secrets/initialAdminPassword
 
 ## Configure initial user
 
-![qownnotes-media-EEApWf](../../media/qownnotes-media-EEApWf.png)
+![qownnotes-media-uGxwPr](../../media/qownnotes-media-uGxwPr.png)
+
 
 
 
