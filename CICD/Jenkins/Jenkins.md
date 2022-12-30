@@ -77,6 +77,11 @@ Copy password in /var/lib/jenkins/secrets/initialAdminPassword
 
 ![qownnotes-media-dkDkAc](../../media/qownnotes-media-dkDkAc.png)
 
+## start using jenkins
+
+![qownnotes-media-YavcjN](../../media/qownnotes-media-YavcjN.png)
+
+
 
 
 
