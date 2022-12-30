@@ -16,4 +16,5 @@ sudo systemctl status jenkins
 ```
 ![qownnotes-media-yEAMoF](../../media/qownnotes-media-yEAMoF.png)
 
-sudo systemctl enable --now jenkins
+`sudo systemctl enable --now jenkins`
+
