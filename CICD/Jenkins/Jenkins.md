@@ -70,3 +70,6 @@ Copy password in /var/lib/jenkins/secrets/initialAdminPassword
 
 ![qownnotes-media-XHEPEy](../../media/qownnotes-media-XHEPEy.png)
 
+## Install suggested plugins
+![qownnotes-media-IdPRcB](../../media/qownnotes-media-IdPRcB.png)
+
