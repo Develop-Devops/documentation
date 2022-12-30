@@ -33,10 +33,10 @@ server {
         }
         location / {
 
-                proxy_set_header X-Real-IP  $remote_addr;
-                proxy_set_header X-Forwarded-For $remote_addr;
-                proxy_set_header Host $host;
-                proxy_set_header X-Forwarded-Proto $scheme;
+                proxy_set_header X-Real-IP  \$remote_addr;
+                proxy_set_header X-Forwarded-For \$remote_addr;
+                proxy_set_header Host \$host;
+                proxy_set_header X-Forwarded-Proto \$scheme;
                 proxy_pass          http://localhost:8080;
 
         }
