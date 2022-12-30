@@ -20,13 +20,13 @@ sudo systemctl status jenkins
 
 
 ## Cofigure virtualhost
-host=
 ```
+host_name='jenkins.weweb.com'
 cat << EOF > /etc/nginx/sites-available/jenkins
 
 server {
 
-        server_name jenkins.weweb.com;
+        server_name $host_name;
         location /health/ {
                 return 200 "ok";
                 add_header Content-Type text/plain;
