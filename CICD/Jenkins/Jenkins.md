@@ -55,9 +55,9 @@ EOF
 ln -s /etc/nginx/sites-available/jenkins /etc/nginx/sites-enabled/
 nginx -t
 
-systectl start nginx
+systemctl start nginx
 systemctl enable nginx
-systenctl status nginx
+systemctl status nginx
 
 certbot --nginx
 ```
