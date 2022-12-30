@@ -105,7 +105,10 @@ Enter name and select Multibranch Pipeline
 
 ![qownnotes-media-cRyqKw](../../media/qownnotes-media-cRyqKw.png)
 
-### new git
+### new github App
+
+![qownnotes-media-sAemVz](../../media/qownnotes-media-sAemVz.png)
+
 
 
 
