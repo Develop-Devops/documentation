@@ -73,3 +73,9 @@ Copy password in /var/lib/jenkins/secrets/initialAdminPassword
 ## Install suggested plugins
 ![qownnotes-media-IdPRcB](../../media/qownnotes-media-IdPRcB.png)
 
+## Configure initial user
+
+![qownnotes-media-EEApWf](../../media/qownnotes-media-EEApWf.png)
+
+
+
