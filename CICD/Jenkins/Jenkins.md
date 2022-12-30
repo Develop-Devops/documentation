@@ -88,6 +88,11 @@ Copy password in /var/lib/jenkins/secrets/initialAdminPassword
 
 # Configure pipeline
 
+## new Item
+
+![qownnotes-media-YLWaYR](../../media/qownnotes-media-YLWaYR.png)
+
+
 
 
 
