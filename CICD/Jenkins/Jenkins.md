@@ -63,3 +63,7 @@ certbot --nginx
 ```
 
 Open https://<your hostname> in your browser
+
+![qownnotes-media-mcJqaY](../../media/qownnotes-media-mcJqaY.png)
+
+Copy password in /var/lib/jenkins/secrets/initialAdminPassword
