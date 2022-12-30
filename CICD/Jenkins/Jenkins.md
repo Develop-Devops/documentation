@@ -20,4 +20,40 @@ sudo systemctl status jenkins
 
 
 ## Cofigure virtualhost
+```
+
+server {
+
+        root /var/www/html;
+        server_name jenkins.weweb.com;
+        location /health/ {
+                return 200 "ok";
+                add_header Content-Type text/plain;
+
+        }
+        location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                #try_files $uri $uri/ =404;
+
+                proxy_set_header X-Real-IP  $remote_addr;
+                proxy_set_header X-Forwarded-For $remote_addr;
+                proxy_set_header Host $host;
+                proxy_set_header X-Forwarded-Proto $scheme;
+                proxy_pass          http://localhost:8080;
+
+        }
+
+    listen [::]:443 ssl ipv6only=on; # managed by Certbot
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/jenkins.dofleinisoftware.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/jenkins.dofleinisoftware.com/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+
+}
+```
 
