@@ -101,7 +101,11 @@ Enter name and select Multibranch Pipeline
 
 ![qownnotes-media-rYAomz](../../media/qownnotes-media-rYAomz.png)
 
+### developers settings
 
+![qownnotes-media-cRyqKw](../../media/qownnotes-media-cRyqKw.png)
+
+### new git
 
 
 
