@@ -4,3 +4,5 @@ Go to settings-> Developer settings -> Personal access tokens -> Fine-grained to
 
 and generate new token
 
+![qownnotes-media-jGFhyn](../../media/qownnotes-media-jGFhyn.png)
+
