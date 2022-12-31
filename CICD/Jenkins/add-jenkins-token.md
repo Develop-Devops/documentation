@@ -9,3 +9,6 @@
 ![qownnotes-media-PvmJol](../../media/qownnotes-media-PvmJol.png)
 
 ## and copy token
+
+![qownnotes-media-CpuQPx](../../media/qownnotes-media-CpuQPx.png)
+
