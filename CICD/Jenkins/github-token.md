@@ -12,3 +12,4 @@ and generate new token
 
 and copy the token:
 
+![qownnotes-media-NMFZbE](../../media/qownnotes-media-NMFZbE.png)

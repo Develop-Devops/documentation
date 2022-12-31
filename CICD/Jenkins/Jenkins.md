@@ -103,3 +103,8 @@ Enter name and select Multibranch Pipeline
 In branch Source select git
 
 ![qownnotes-media-daAwrr](../../media/qownnotes-media-daAwrr.png)
+
+
+## Obtain github token
+
+git
