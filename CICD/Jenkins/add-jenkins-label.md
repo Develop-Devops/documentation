@@ -10,7 +10,8 @@ Configure node
 
 ![qownnotes-media-ltcyQj](../../media/qownnotes-media-ltcyQj.png)
 
-add label master
+add label master and change Usage
 
-![qownnotes-media-XIcPac](../../media/qownnotes-media-XIcPac.png)
+![qownnotes-media-SOxXxC](../../media/qownnotes-media-SOxXxC.png)
+
 
