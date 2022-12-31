@@ -180,5 +180,9 @@ pipeline {
 
 [add-jenkins-label](add-jenkins-label.md)
 
+## add jenkins-token
 
-## Configure web
+
+## Configure webhook in github
+
+https://\<user\>:\<password\>@<server>/job/<proyect>/job/<branch>/build
