@@ -15,7 +15,7 @@ pipeline {
 	    {
             success {
                 sh '''
-                    curl -i -X GET "https://api.telegram.org/bot"${TELEGRAM_TOKEN}"/sendMessage?chat_id=${TELEGRAM_GROUP}&text=✅✅✅The '"$JOB_NAME"' job execution was successful, for details go to: '"$RUN_DISPLAY_URL"' "
+                    curl -i -X GET "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage?chat_id=${TELEGRAM_GROUP}&text=✅✅✅The '"$JOB_NAME"' job execution was successful, for details go to: '"$RUN_DISPLAY_URL"' "
                 '''
                 }
             failure {
