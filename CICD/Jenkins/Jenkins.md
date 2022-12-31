@@ -187,4 +187,4 @@ pipeline {
 
 https://\<user\>:\<password\>@<server>/job/<proyect>/job/<branch>/build
 
-
+Go to settings in y
