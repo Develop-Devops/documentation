@@ -6,5 +6,6 @@
 
 ## Add new token
 
-![qownnotes-media-WNBtbU](../../media/qownnotes-media-WNBtbU.png)
+![qownnotes-media-PvmJol](../../media/qownnotes-media-PvmJol.png)
 
+## and copy token
