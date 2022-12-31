@@ -1,3 +1,3 @@
-Go to settings-> Developer settings -> Personal access tokens -> Fine 
+Go to settings-> Developer settings -> Personal access tokens -> Fine-grained tokens
 
 ![qownnotes-media-ATEuiv](../../media/qownnotes-media-ATEuiv.png)
