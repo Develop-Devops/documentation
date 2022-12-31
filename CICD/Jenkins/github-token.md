@@ -10,3 +10,5 @@ and generate new token
 
 ![qownnotes-media-Gphrwi](../../media/qownnotes-media-Gphrwi.png)
 
+and copy the token:
+
