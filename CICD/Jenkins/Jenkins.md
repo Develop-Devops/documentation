@@ -107,4 +107,5 @@ In branch Source select git
 
 ## Obtain github token
 
-git
+[github-token](github-token.md)
+
