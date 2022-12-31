@@ -176,4 +176,6 @@ pipeline {
 
 }
 ```
-## Configure 
+## Configure node label
+
+[add-jenkins-label](add-jenkins-label.md)
