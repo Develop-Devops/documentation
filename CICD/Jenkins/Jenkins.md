@@ -123,5 +123,6 @@ and save
 
 ![qownnotes-media-FxVuwG](../../media/qownnotes-media-FxVuwG.png)
 
+Now you need to add Jenkinsfile in your branch
 
 
