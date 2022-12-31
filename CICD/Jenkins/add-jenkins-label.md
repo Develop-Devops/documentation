@@ -10,3 +10,7 @@ Configure node
 
 ![qownnotes-media-ltcyQj](../../media/qownnotes-media-ltcyQj.png)
 
+add label master
+
+![qownnotes-media-XIcPac](../../media/qownnotes-media-XIcPac.png)
+
