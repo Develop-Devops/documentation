@@ -11,6 +11,10 @@
   - [Copy repository in Project Repository with this format](#copy-repository-in-project-repository-with-this-format)
   - [supress automatic SCM triggering](#supress-automatic-scm-triggering)
   - [Jenkinsfile](#jenkinsfile)
+  - [Configure node label](#configure-node-label)
+  - [add jenkins-token](#add-jenkins-token)
+  - [Configure webhook in github](#configure-webhook-in-github)
+
 
 # Install Jenkins
 ```
