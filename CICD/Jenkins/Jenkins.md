@@ -100,4 +100,6 @@ Enter name and select Multibranch Pipeline
 
 ![qownnotes-media-SufsiC](../../media/qownnotes-media-SufsiC.png)
 
-In 
+In branch Source select git
+
+![qownnotes-media-daAwrr](../../media/qownnotes-media-daAwrr.png)
