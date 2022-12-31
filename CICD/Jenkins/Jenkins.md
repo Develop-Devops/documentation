@@ -109,6 +109,7 @@ In branch Source select git
 
 [github-token](github-token.md)
 
-## Copy repository in this format
+## Copy repository in Project Repository with this format
 
-Project Repository
+https://<user>:<token>@rpos
+
