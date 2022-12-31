@@ -113,5 +113,7 @@ In branch Source select git
 
 https://<user>:<token>@repository/url.git
 
+![qownnotes-media-pgLanW](../../media/qownnotes-media-pgLanW.png)
+
 
 
