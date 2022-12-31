@@ -6,3 +6,7 @@ and generate new token
 
 ![qownnotes-media-jGFhyn](../../media/qownnotes-media-jGFhyn.png)
 
+![qownnotes-media-IpkEZz](../../media/qownnotes-media-IpkEZz.png)
+
+![qownnotes-media-Gphrwi](../../media/qownnotes-media-Gphrwi.png)
+
