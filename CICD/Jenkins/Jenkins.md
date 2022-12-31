@@ -111,5 +111,7 @@ In branch Source select git
 
 ## Copy repository in Project Repository with this format
 
-https://<user>:<token>@rpos
+https://<user>:<token>@repository/url.git
+
+
 
