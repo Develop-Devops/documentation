@@ -115,5 +115,8 @@ https://<user>:<token>@repository/url.git
 
 ![qownnotes-media-pgLanW](../../media/qownnotes-media-pgLanW.png)
 
-## supr
+## supress automatic SCM triggering
+
+![qownnotes-media-nsmKgw](../../media/qownnotes-media-nsmKgw.png)
+
 
