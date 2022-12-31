@@ -187,4 +187,8 @@ pipeline {
 
 https://\<user\>:\<password\>@<server>/job/<proyect>/job/<branch>/build
 
-Go to settings in y
+Go to settings in your proyect
+
+![qownnotes-media-xEVOyo](../../media/qownnotes-media-xEVOyo.png)
+
+
