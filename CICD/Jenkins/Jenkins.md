@@ -195,4 +195,8 @@ webhooks
 
 ![qownnotes-media-AtVKom](../../media/qownnotes-media-AtVKom.png)
 
+add webhooks
+
+![qownnotes-media-JrSQdK](../../media/qownnotes-media-JrSQdK.png)
+
 
