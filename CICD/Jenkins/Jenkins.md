@@ -95,3 +95,9 @@ Copy password in /var/lib/jenkins/secrets/initialAdminPassword
 Enter name and select Multibranch Pipeline
 
 ![qownnotes-media-gZpJnc](../../media/qownnotes-media-gZpJnc.png)
+
+## add Display Name
+
+![qownnotes-media-SufsiC](../../media/qownnotes-media-SufsiC.png)
+
+In 
