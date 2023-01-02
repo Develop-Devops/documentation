@@ -22,3 +22,4 @@ Tareas Enero 2023
 - [ ] Onlive migrar para zona españa (Siovel)
 - [ ] Staging Etecsa (Edge/Pfsense)
     - [ ] logueado cualquier ataque
+    - [ ] IDS/IPS
