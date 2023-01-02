@@ -24,3 +24,4 @@ Tareas Enero 2023
     - [ ] logueado cualquier ataque
     - [ ] IDS/IPS
 - [ ] Cambiar VPN tuambia (Siovel)
+    - [ ] nuevo VPN ti
