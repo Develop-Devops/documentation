@@ -12,4 +12,5 @@ Tareas Enero 2023
     - [x] nginx
     - [x] cluster k8s
 - [ ] Deploy ARCA (Alain)
+    - [ ] Servidor web
     - [ ] 
