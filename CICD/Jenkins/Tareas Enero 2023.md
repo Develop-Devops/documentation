@@ -24,5 +24,5 @@ Tareas Enero 2023
     - [ ] logueado cualquier ataque
     - [ ] IDS/IPS
 - [ ] Cambiar VPN tuambia (Siovel)
-    - [ ] nuevo VPN fuera de la interna de nosotros (vpc-bastion) ()
-    - [ ] 
+    - [ ] nuevo VPN fuera de la red interna de nosotros (vpc-bastion) (35.153.201.97)
+    - [ ] el actual, crear una
