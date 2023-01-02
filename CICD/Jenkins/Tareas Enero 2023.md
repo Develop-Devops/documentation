@@ -25,4 +25,4 @@ Tareas Enero 2023
     - [ ] IDS/IPS
 - [ ] Cambiar VPN tuambia (Siovel)
     - [ ] nuevo VPN fuera de la red interna de nosotros (vpc-bastion) (35.153.201.97)
-    - [ ] el actual, crear una
+    - [ ] el actual, crear una ip flotante y se la asignas
