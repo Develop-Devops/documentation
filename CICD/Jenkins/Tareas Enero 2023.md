@@ -1,7 +1,7 @@
 Tareas Enero 2023
 =================
 
-- [ ] Deploy Tienda EICMA (Leandro)
+- [ ] Deploy Tienda EICMA (Leandro) OJO
     - [ ] Desplegar Tienda Virtual
     - [ ] Desplegar agrocom
     - [ ] Clinica Veterinaria
@@ -20,7 +20,7 @@ Tareas Enero 2023
     - [ ] VLANS (servidores, equipos de tabaco, workstation)
     - [ ] switch tp-link
 - [ ] Onlive migrar para zona españa (Siovel)
-- [ ] Staging Etecsa (Edge/Pfsense)
+- [ ] Staging Etecsa (Edge/Pfsense) (Leandro)
     - [ ] logueado cualquier ataque
     - [ ] IDS/IPS
 - [ ] Cambiar VPN tuambia (Siovel)
