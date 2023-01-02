@@ -7,7 +7,9 @@ Tareas Enero 2023
     - [ ] Clinica Veterinaria
     - [ ] y otro
     - [ ] kafka
-    - [ ] 
+    - [ ] elasticsearch
+    - [ ] cluster de mongodb
     - [x] nginx
     - [x] cluster k8s
-- [ ] Deploy ARCA
+- [ ] Deploy ARCA (Alain)
+    - [ ] 
