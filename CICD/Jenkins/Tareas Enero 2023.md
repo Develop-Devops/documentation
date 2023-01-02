@@ -21,3 +21,4 @@ Tareas Enero 2023
     - [ ] switch tp-link
 - [ ] Onlive migrar para zona españa (Siovel)
 - [ ] Staging Etecsa (Edge/Pfsense)
+    - [ ] logueado cualquier ataque
