@@ -20,4 +20,4 @@ Tareas Enero 2023
     - [ ] VLANS (servidores, equipos de tabaco, workstation)
     - [ ] switch tp-link
 - [ ] Onlive migrar para zona españa (Siovel)
-- [ ] Staging Cuba Etecsa
+- [ ] Staging Etecsa (Edge/Pfsense)
