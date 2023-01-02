@@ -23,3 +23,4 @@ Tareas Enero 2023
 - [ ] Staging Etecsa (Edge/Pfsense)
     - [ ] logueado cualquier ataque
     - [ ] IDS/IPS
+- [ ] Cambiar VPN tuambia (Siovel)
