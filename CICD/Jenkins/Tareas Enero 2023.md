@@ -17,3 +17,4 @@ Tareas Enero 2023
     - [ ] squid/squish
     - [ ] DNS/AD
     - [ ] Correo Zimbra
+    - [ ] VLANS (servidores, equipos de tabaco, )
