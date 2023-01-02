@@ -14,3 +14,4 @@ Tareas Enero 2023
 - [ ] Deploy ARCA (Alain)
     - [ ] Servidor web
     - [ ] Pfsense
+    - [ ] squid/squish
