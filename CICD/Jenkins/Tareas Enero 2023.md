@@ -13,4 +13,4 @@ Tareas Enero 2023
     - [x] cluster k8s
 - [ ] Deploy ARCA (Alain)
     - [ ] Servidor web
-    - [ ] 
+    - [ ] Pfsense
