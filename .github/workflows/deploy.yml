@@ -7,7 +7,7 @@ on:
      - 'feature/**'
      - 'bugfix/**'
      - 'hotfix/**'
-jobs:
+jobs:          
   build:    
     name: Build Image
     runs-on: ubuntu-latest
