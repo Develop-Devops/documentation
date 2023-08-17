@@ -4,20 +4,10 @@ on:
  push:
     branches:
      - dev
-     - main
      - 'feature/**'
      - 'bugfix/**'
      - 'hotfix/**'
-jobs:
-  test:
-    name: Hello World
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Echo
-        run: |
-          echo "Hello World"
-          
+jobs:          
   build:    
     name: Build Image
     runs-on: ubuntu-latest
