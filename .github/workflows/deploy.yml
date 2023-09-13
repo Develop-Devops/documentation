@@ -47,3 +47,19 @@ jobs:
       #   run: |
       #     docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG -f docker/nginx-fpm/Dockerfile.nginx docker/nginx-fpm/
       #     docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+
+  download:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Descargar artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: my-artifact
+
+    - name: Listar contenido del directorio actual
+      run: |
+        cat ${{ steps.download-artifact.outputs.my-artifact }} > my-file-downloaded.txt
+        cat my-file-downloaded.txt
+        ls -la      
