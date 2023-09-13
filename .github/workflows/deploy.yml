@@ -25,7 +25,7 @@ jobs:
 
       - name: Download artifact
         run: |
-          cat ${{ steps.download-artifact.outputs.artifact-path }} > my-file-downloaded.txt
+          cat ${{ steps.download-artifact.outputs.my-artifact }} > my-file-downloaded.txt
           cat my-file-downloaded.txt
           
       - name: Configure AWS credentials
