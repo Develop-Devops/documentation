@@ -15,7 +15,13 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v2
-
+ 
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: sonarqube/README.md
+           
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
