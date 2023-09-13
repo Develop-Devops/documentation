@@ -60,6 +60,4 @@ jobs:
 
     - name: Listar contenido del directorio actual
       run: |
-        cat ${{ steps.download-artifact.outputs.my-artifact }} > my-file-downloaded.txt
-        cat my-file-downloaded.txt
-        ls -la      
+        cat README.md     
